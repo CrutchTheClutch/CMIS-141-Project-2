@@ -10,6 +10,8 @@ import java.util.Scanner;
  */
 public class Lottery {
     public static void main(String[] args) {
+
+        // Instances
         Random randomGen = new Random();        // random number generator
         Scanner input = new Scanner(System.in); // takes user input
 
