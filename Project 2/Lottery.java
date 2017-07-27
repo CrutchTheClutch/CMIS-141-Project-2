@@ -1,5 +1,5 @@
-import java.util.Scanner;
 import java.util.Random;
+import java.util.Scanner;
 
 /**
  * File: Lottery.java
@@ -9,8 +9,9 @@ import java.util.Random;
  * Then, calculates the sum of all pick numbers generated.
  */
 public class Lottery {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
+        // Instances
         Random randomGen = new Random();        // random number generator
         Scanner input = new Scanner(System.in); // takes user input
 
@@ -44,7 +45,7 @@ public class Lottery {
         // Welcome Note
         System.out.println("Welcome to The Lottery Simulator!\n");
 
-	    //Question 1
+        //Question 1
         System.out.println("Do you wish to make lottery game selections? Input Y for yes, or N for no");
 
         while (repeatQ1) {
@@ -68,7 +69,7 @@ public class Lottery {
             }
         }
 
-	    //Question 2
+        //Question 2
         System.out.println("Which lottery game do you want to play?");
         System.out.println("Enter 3 for pick-3, 4 for pick-4, 5 for pick-5");
 
@@ -99,7 +100,7 @@ public class Lottery {
             }
         }
 
-	    //Question 3
+        //Question 3
         System.out.println("How many games would you like to play?");
         while (repeatQ3) {
             inputQ3 = input.nextInt();      // Takes input
@@ -110,7 +111,7 @@ public class Lottery {
             System.out.println("Invalid input. Please enter again.");
         }
 
-	    //Generate Numbers
+        //Generate Numbers
         System.out.println("\nThank you! The numbers randomly generated were: \n");
 
         // Assigns random numbers to picks, loops for numOfGames times
