@@ -1,5 +1,5 @@
-import java.util.Scanner;
 import java.util.Random;
+import java.util.Scanner;
 
 /**
  * File: Lottery.java
@@ -10,7 +10,7 @@ import java.util.Random;
  */
 public class Lottery {
     public static void main(String[] args) {
-        Random randomGen = new Random();        // random number generator
+            Random randomGen = new Random();        // random number generator
         Scanner input = new Scanner(System.in); // takes user input
 
         // Variables
